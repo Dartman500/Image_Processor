@@ -1,0 +1,30 @@
+HOW TO USE THE APP
+1. Open the app
+2. Go to File>"Open all files with the same extension">Navigate to Test_data Folder> Select one ".RSF" file> click on "OPEN"
+	App will now load the Ionosonde(Radar images)
+3. After it is done loading go again to File>"ADD all files with the same extension">Navigate to Test_data Folder> Select one ".SAO" file> click on "OPEN"
+4. After the app is done click on "Ionogram"
+	
+5. You will see to similar "traces" the leftmost one is the one we are interested in.
+Set the bounds for the trace(the upper and lower limit for the real trace frequency) by clicking and dragging the yellow vertical lines left and right,(See attachded example) it makes it easier to make the trace.
+Basically all you need to do is trace the line as shown in the example. 
+
+
+	I inserted an example of what the trace should look like as an image.
+	On the horizontal axis is Frequency on the vertical is height in KM.
+
+	These same examples which i used can be found inside the Example folder. To see what they look like inside the app just follow Step 1 and 2 but this time open the "Example" folder 
+	instead of Test_data. 
+	On step 3 do this instead  File>"ADD file(s)">Navigate to Example Folder> Select "BLJ03_201810_example.SAO"> click on "OPEN". 
+	Now the app will load the "images" which i have processed already.
+	
+	
+I have added a powerpoint which has more details about the app. 
+
+Website :https://ulcar.uml.edu/SAO-X/SAO-X.html
+
+
+I am using this app for my Phd research in which you have to manually process some radar data. The app is like this on the screen there are lots of dots on the screen but there are dots that form a curve but the curve is broken up in between so i have to manually  trace the line to complete it pretty straightfoward task but very cumbersome to do for 24 hours worth of data.
+Is there a way I can train AI to do this for me, Any takers please help.
+Here is my email, 
+frank.chingarandi@inpe.br

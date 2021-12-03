@@ -1,0 +1,53 @@
+August 12, 2021
+Contact: Ivan Galkin, Ivan_Galkin@uml.edu
+
+SAO EXPLORER TEMPORARY INSTALLATION INSTRUCTIONS
+
+LGDC team is unable to stay current with InstallAnywhere software releases. 
+Our apologies for inconvenience of MANUAL installation of SAO Explorer that we have to offer at this time.
+
+Manual Installation Procedure:
+
+1. Download zip file from here:
+
+    https://ulcar.uml.edu/SAO-X/SAOExplorer_3.6.1.zip
+
+2. Unzip it in one of your local folders with the user access... (that is, not your Applications or Program Files folder).
+
+And then...
+Windows users: click win.bat file in File Explorer.
+Linux and Mac users: more work is needed.
+
+There is mac.sh and linux.sh starter files. Please raise the flags that allow these scripts to execute (and also NHPC binary files):
+
+2.1. Use the Terminal window to change directory to that new SAOExplorer_3.6 folder.
+2.2. LINUX: Make shell file linux.sh and binary nhpc executable:
+   chmod 744 linux.sh
+   chmod 744 nhpc
+     MACINTOSH: Make shell file mac.sh and binary nhpc.app executable:
+   chmod 744 mac.sh
+   chmod 744 nhpc.app
+2.3. To start SAO Explorer, open Terminal window, navigate to SAOExplorer_3.6 folder and run the starter script:
+Linux:
+   cd ~/SAOExplorer_3.6
+   ./linux.sh
+
+Mac:
+   cd ~/SAOExplorer_3.6
+   ./mac.sh
+
+3. Point your SAO Explorer to the new database in Lowell (this is done once):
+
+Go to "Database Connection" menu under File. Find an empty slot in the table. Then put:
+
+Alias: New Lowell  (or something to your liking)
+Database URL: jdbc:firebirdsql://129.63.134.211/didb
+Username: your username
+Password: your password
+
+then CLICK on Save in list.
+then CLICK on Connect.
+
+NOTE: SAO Explorer 3.6.xx will use previous INI file in your user folder with your custom settings. 
+If there is no SAOExplorer.ini file in your user folder, it will create a new INI file. 
+This may mean that new INI file will not have your previous settings (e.g., window sizes and selections of colors).
